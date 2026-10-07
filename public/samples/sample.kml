@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Folder>
+      <name>survey</name>
+      <Placemark><name>Plot A</name>
+        <ExtendedData><Data name="owner"><value>Ravi</value></Data></ExtendedData>
+        <Polygon><outerBoundaryIs><LinearRing><coordinates>
+          80.20,13.00,0 80.21,13.00,0 80.21,13.01,0 80.20,13.01,0 80.20,13.00,0
+        </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark><name>Road 1</name>
+        <LineString><coordinates>80.20,13.00,0 80.21,13.00,0</coordinates></LineString>
+      </Placemark>
+      <Placemark><name>Well</name>
+        <Point><coordinates>80.205,13.005,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
